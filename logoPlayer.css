@@ -1,0 +1,22 @@
+.logoPrev::before{
+    display: block;
+    content: "|<";
+    font-size: 25px;
+    font-weight: 1000;
+}
+
+
+.logoPlay::after{
+    display: block;
+    content: '>';
+    
+    font-size: 25px;
+    font-weight: 1000;
+
+}
+.logoNext::before{
+    display: block;
+    content: ">|";
+    font-size: 25px;
+    font-weight: 1000;
+}

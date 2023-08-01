@@ -20,7 +20,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 25px;
-    background-color: rgb(74, 193, 195);
+    background-color: #4ac1c3;
     padding: 15px;
     border-radius: 5px;
 }
@@ -67,6 +67,19 @@ body {
   border-radius: 16px;
    
 }
+.Cvol{
+    width: 100%;
+}
+.vol {
+    -webkit-appearance: none;
+  appearance: none; 
+  width: 50%;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden;
+  border-radius: 16px;
+   
+}
 .time_realtime::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none; 
@@ -77,7 +90,17 @@ body {
     box-shadow: -407px 0 0 400px #8efffb;
     
   }
+  .vol::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none; 
+    height: 10px;
+    width: 10px;
+    background-color: #8efffb;
+    border-radius: 50%;
+    box-shadow: -407px 0 0 400px #8efffb;
 
+    
+  }
 
 .time_realtime::-webkit-slider-runnable-track {
 
@@ -92,6 +115,25 @@ body {
 .current_timer {}
 
 .time_end {}
+
+.load_music{
+    margin-bottom: 15px;
+}
+.music::-webkit-file-upload-button{ 
+    border: none;
+    height: 45px;
+    background-color: #4ac1c3;
+    border-radius: 5px;
+    color : white;
+}
+.btn_loadMusic{
+    color : white;
+    border: none;
+    height: 45px;
+    width: 45px;
+    background-color: #4ac1c3;
+    border-radius: 5px;
+}
 
 @media print,
 screen and (max-width: 63.99875em) {}
